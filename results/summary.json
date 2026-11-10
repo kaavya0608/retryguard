@@ -1,0 +1,98 @@
+{
+  "baseline": {
+    "overall": {
+      "requests": 2313,
+      "success_rate": 0.20536100302637267,
+      "high_priority_success_rate": 0.17598343685300208,
+      "shed": 0,
+      "failed": 1838,
+      "p50_success_latency_s": 0.0481,
+      "p95_success_latency_s": 0.08389999999999995,
+      "p99_success_latency_s": 2.111262,
+      "mean_attempts": 3.3942931258106355
+    },
+    "during_fault": {
+      "requests": 979,
+      "success_rate": 0.012257405515832482,
+      "high_priority_success_rate": 0.01507537688442211,
+      "shed": 0,
+      "failed": 967,
+      "p50_success_latency_s": 0.2188,
+      "p95_success_latency_s": 0.388285,
+      "p99_success_latency_s": 0.388857,
+      "mean_attempts": 3.9632277834525027
+    },
+    "after_fault": {
+      "requests": 879,
+      "success_rate": 0.009101251422070534,
+      "high_priority_success_rate": 0.00980392156862745,
+      "shed": 0,
+      "failed": 871,
+      "p50_success_latency_s": 2.1233,
+      "p95_success_latency_s": 2.279785,
+      "p99_success_latency_s": 2.286757,
+      "mean_attempts": 4.0
+    },
+    "backend_requests_received": 7851,
+    "backend_requests_processed": 2366,
+    "backend_requests_rejected": 5485,
+    "load_amplification": 3.3942931258106355,
+    "retries": 5538,
+    "max_queue_length": 100,
+    "max_cpu_percent": 9.559999999999999,
+    "max_mem_percent": 0.355,
+    "service_recovery_time_s": null,
+    "fault_window_s": [
+      8,
+      20
+    ]
+  },
+  "retryguard": {
+    "overall": {
+      "requests": 2313,
+      "success_rate": 0.6057068741893644,
+      "high_priority_success_rate": 0.6625258799171843,
+      "shed": 761,
+      "failed": 151,
+      "p50_success_latency_s": 0.0504,
+      "p95_success_latency_s": 0.2024,
+      "p99_success_latency_s": 0.4324,
+      "mean_attempts": 0.6731517509727627
+    },
+    "during_fault": {
+      "requests": 978,
+      "success_rate": 0.08077709611451943,
+      "high_priority_success_rate": 0.18181818181818182,
+      "shed": 748,
+      "failed": 151,
+      "p50_success_latency_s": 0.3361,
+      "p95_success_latency_s": 0.49202999999999997,
+      "p99_success_latency_s": 0.5050479999999999,
+      "mean_attempts": 0.24028629856850717
+    },
+    "after_fault": {
+      "requests": 879,
+      "success_rate": 0.9852104664391353,
+      "high_priority_success_rate": 0.9950980392156863,
+      "shed": 13,
+      "failed": 0,
+      "p50_success_latency_s": 0.05,
+      "p95_success_latency_s": 0.072075,
+      "p99_success_latency_s": 0.08067,
+      "mean_attempts": 0.9852104664391353
+    },
+    "backend_requests_received": 1557,
+    "backend_requests_processed": 1557,
+    "backend_requests_rejected": 0,
+    "load_amplification": 0.6731517509727627,
+    "retries": 5,
+    "max_queue_length": 20,
+    "max_cpu_percent": 4.11,
+    "max_mem_percent": 0.338,
+    "service_recovery_time_s": 1,
+    "fault_window_s": [
+      8,
+      20
+    ]
+  }
+}
